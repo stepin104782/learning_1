@@ -8,7 +8,8 @@ BUILD = build
 INC	= -Iinc
 
 # All source code files
-SRC = src/learning_1.c
+SRC = src/learning_1.c\
+src/addition.c
 #Test files
 
 #test header
@@ -17,7 +18,7 @@ TS_H= $(INC)\
 -Itest
 # All test source files
 TEST_SRC = test/test_add.c\
-src/learning_1.c\
+src/addition.c\
 unity/unity.c 
 
 
