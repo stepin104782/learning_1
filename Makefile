@@ -16,7 +16,7 @@ TS_H= $(INC)\
 -Iunity\
 -Itest
 # All test source files
-TEST_SRC = test/test_add.c
+TEST_SRC = test/test_add.c\
 unity/unity.c 
 
 
