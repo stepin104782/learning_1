@@ -8,13 +8,13 @@ void tearDown(){}
 
 void test_add_1(void)
 {
-  TEST_ASSERT_EQUAL(9, factorial(5, 4));
-  TEST_ASSERT_EQUAL(8, factorial(6, 2));
+  TEST_ASSERT_EQUAL(9, addition(5, 4));
+  TEST_ASSERT_EQUAL(8, addition(6, 2));
 }
 void test_add_2(void)
 {
-  TEST_ASSERT_EQUAL(2, factorial(1, 1));
-  TEST_ASSERT_EQUAL(56, factorial(50, 6));
+  TEST_ASSERT_EQUAL(2, addition(1, 1));
+  TEST_ASSERT_EQUAL(56, addition(50, 6));
 }
 
 
