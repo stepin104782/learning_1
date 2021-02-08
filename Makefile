@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = additiion
+PROJECT_NAME = addition
 
 # Output directory
 BUILD = build
